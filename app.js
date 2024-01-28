@@ -5,7 +5,7 @@ function sendMessage() {
     if (message !== '') {
         appendUserMessage(message);
         // Replace 'your_botpress_webhook_url' with your actual Botpress webhook URL
-        fetch('https://cors-anywhere.herokuapp.com/https://webhook.botpress.cloud/0588cceb-5aa3-4301-9b1e-70cc68496bb5', {
+        fetch('https://webhook.botpress.cloud/0588cceb-5aa3-4301-9b1e-70cc68496bb5', {
 
             method: 'POST',
             headers: {
